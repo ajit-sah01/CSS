@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    /* background-color: aqua; */
+    display: inline-block;
+    border: 2px solid red;
+}
+#box1{
+    background-image: url("dog_pic.jpg");
+    background-size: cover;
+
+}
+body{
+    background-image: url("dog_pic.jpg");
+    background-size: cover ;
+   
+}
+
+/* 3:39 */

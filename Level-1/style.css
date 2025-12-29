@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    text-align: center;
+    align-content: center;
+}
+h1{
+    height: 50px;
+    width: 200px;
+    border: 3px dashed red;
+    text-align: center;
+    border-radius: 10px;
+   
+}

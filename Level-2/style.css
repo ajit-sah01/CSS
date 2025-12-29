@@ -1,0 +1,28 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    font-size: 10px;
+}
+#box2{
+    height: 50px;
+    width:30%;
+    background-color: yellow;
+    margin-left: 20%;
+    font-size: 0.5em;
+}
+
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    font-size: 10px;
+}
+#box4{
+  
+    width:10vw;
+    background-color: yellow;
+    margin-left: 20%;
+    font-size: 1rem;
+    height: 10vh;
+}

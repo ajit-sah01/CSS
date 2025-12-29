@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px dotted blue;
+    margin: auto;
+    transition: all 5s ease-in 1s;
+}
+div:hover{
+    background-color: blue;
+    font-size: 20px;
+    cursor: pointer;
+    transform: scaleX(5);
+
+}
+div:active{
+    background-color: pink;
+}
+

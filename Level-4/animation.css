@@ -1,0 +1,59 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    /* animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out ;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: bestAnimate 4s ease-in-out 2s infinite alternate;
+
+}
+
+@keyframes bestAnimate {
+    0% {
+        /* Start: Red color, normal size, no rotation, top-left-ish corner */
+        transform: translate(0, 0) scale(1) rotate(0deg);
+        background-color: #f43f5e;
+        /* Rose 500 */
+        box-shadow: 0 0 15px rgba(244, 63, 94, 0.5);
+    }
+
+    25% {
+        /* Move right and up, scale up slightly, rotate */
+        transform: translate(calc(100% + 150px), -20px) scale(1.1) rotate(90deg);
+        background-color: #fde047;
+        /* Yellow 400 */
+        box-shadow: 0 0 10px rgba(253, 224, 71, 0.8);
+    }
+
+    50% {
+        /* Move down-right, scale down, rotate further, change color */
+        transform: translate(calc(100% + 350px), 250px) scale(0.9) rotate(180deg);
+        background-color: #22c55e;
+        /* Green 500 */
+        box-shadow: 0 0 25px rgba(34, 197, 94, 1);
+    }
+
+    75% {
+        /* Move left and down, scale up slightly, rotate */
+        transform: translate(-20px, 200px) scale(1.1) rotate(270deg);
+        background-color: #3b82f6;
+        /* Blue 500 */
+        box-shadow: 0 0 10px rgba(59, 130, 246, 0.8);
+    }
+
+    100% {
+        /* Return to start state, completing a full 360-degree rotation */
+        transform: translate(0, 0) scale(1) rotate(360deg);
+        background-color: #f43f5e;
+        box-shadow: 0 0 15px rgba(244, 63, 94, 0.5);
+    }
+}

@@ -1,0 +1,34 @@
+div {
+    background-color: pink;
+    display: inline;
+}
+
+.one {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+.two {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+
+    /* display: none; */
+    visibility: hidden;
+}
+
+.three {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
